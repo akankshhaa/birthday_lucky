@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --primary-pink: #cf7fa7;
+    --secondary-blue: #13286d;
+}
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: rgb(141, 56, 244);
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0.2rem 0.2rem rgb(63, 31, 31);
+    /* font-weight: bold; */
+}
+
+h3{
+    color: rgb(121, 180, 150);
+}
+
+.container{
+    padding: 2rem;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: auto;
+    width: 60%;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: rgba(224, 224, 224, 0.799);
+    
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin: 0.5rem auto;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+textarea{
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    background-color:rgb(153, 95, 224);
+    border: 2px solid var(--secondary-blue);
+    width: 60%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+input{
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-blue);
+}
+
+button{
+    height: 2rem;
+    cursor: pointer;
+    background-color: rgba(43, 36, 36, 0.692);
+    color: azure;
+    margin: auto;
+    display: block;
+    border-radius: 50rem;
+    border: 2px solid rgb(146, 45, 45);
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(191, 53, 53);
+    border: 2px solid rgb(182, 88, 210);
+}
+
+footer{
+    background-color:rgb(153, 95, 224);
+    color: rgba(133, 119, 212, 0.984);
+    font-weight: bold;
+    
+}
+.footer{
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+    margin-top: 5rem;
+}
+
+.link{
+    color: rgb(2, 2, 3);
+    text-shadow: 0.04rem 0.04rem rgb(173, 173, 173);
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
